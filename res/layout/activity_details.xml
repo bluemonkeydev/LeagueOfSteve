@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="135sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Name:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detailName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="Billy"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView03e"
+        android:layout_width="135sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="25sp"
+        android:text="Rank:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detailRank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03e"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView03b"
+        android:layout_width="135sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView03e"
+        android:layout_marginTop="25sp"
+        android:text="Score:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detailScore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03b"
+        android:layout_toRightOf="@+id/TextView03b"
+        android:text="200"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView03c"
+        android:layout_width="135sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView03b"
+        android:text="Correct:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detailCorrect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03c"
+        android:layout_toRightOf="@+id/TextView03c"
+        android:text="450"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView03d"
+        android:layout_width="135sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView03c"
+        android:text="Best Score:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detailBestScore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03d"
+        android:layout_toRightOf="@+id/TextView03d"
+        android:text="1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="135sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView03d"
+        android:text="Best Correct:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detailBestCorrect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView07"
+        android:layout_toRightOf="@+id/TextView07"
+        android:text="100"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="135sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_below="@+id/TextView07"
+        android:text="Winning:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detailWinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView05"
+        android:layout_toRightOf="@+id/TextView05"
+        android:text="SDSU"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/viewBracket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView05"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="5sp"
+        android:text="View Bracket"
+        android:onClick="viewBracket" />
+
+</RelativeLayout>
